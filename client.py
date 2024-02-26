@@ -2,10 +2,12 @@ import socket
 import subprocess
 import shlex
 
+
 SERVER = 'localhost'
 DATA_PORT = 8020 
 CTRL_PORT = 8021
 BUFFER_SIZE = 1024
+
 
 def send(request):
     try:
@@ -108,4 +110,3 @@ def main():
 if __name__ == '__main__':
     main()
         
-
